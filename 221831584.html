@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Philile Bele - Aspiring Software Engineer</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+            background: linear-gradient(135deg, #eaf4fc 0%, #d4e8f7 100%);
+            color: #2c3e50;
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+            padding: 40px 50px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1a73e8;
+            font-size: 2.2em;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+
+        h2 {
+            color: #1a73e8;
+            border-left: 5px solid #1a73e8;
+            padding-left: 12px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, transparent, #1a73e8, transparent);
+            margin: 25px 0;
+        }
+
+        .profile-img {
+            display: block;
+            margin: 20px auto;
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #1a73e8;
+            box-shadow: 0 4px 12px rgba(26, 115, 232, 0.3);
+        }
+
+        ul, ol {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        ul li, ol li {
+            margin-bottom: 6px;
+        }
+
+        ul li::marker {
+            color: #1a73e8;
+        }
+
+        audio {
+            display: block;
+            margin: 15px auto;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: #0d47a1;
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.85em;
+            color: #7f8c8d;
+        }
+
+        .nav-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #1a73e8;
+            color: #ffffff;
+            border-radius: 6px;
+            max-width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .nav-link:hover {
+            background-color: #0d47a1;
+            color: #ffffff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Welcome to Philile Bele's Website</h1>
+        <hr>
+
+        <h2>About Me</h2>
+        <img src="image/me.jpg" alt="Photo of Philile Bele" class="profile-img">
+        <p>
+            My name is <b>Philile Bele</b>, student number <b>221831584</b>.
+            I am passionate about technology, software development, and
+            information systems. I hold a <b>Data Analytics certificate from ALX</b>
+            and I am currently working towards becoming a professional software
+            engineer. I enjoy learning how software is designed, built, tested,
+            and deployed.
+        </p>
+
+        <hr>
+
+        <h2>My Career Interests</h2>
+        <p>My main areas of interest include:</p>
+        <ul>
+            <li>Software Development</li>
+            <li>Web and Mobile Application Development</li>
+            <li>Data Analytics and Information Systems</li>
+            <li>Cloud Computing and DevOps</li>
+            <li>Database Design and Management</li>
+        </ul>
+
+        <hr>
+
+        <h2>My Certifications</h2>
+        <ul>
+            <li><b>Data Analytics Certificate</b> &mdash; ALX</li>
+        </ul>
+
+        <hr>
+
+        <h2>My Favourite Sound</h2>
+        <audio controls autoplay loop>
+            <source src="sound.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <hr>
+
+        <h2>My Professional Links</h2>
+        <ul>
+            <li>
+                <a href="https://github.com/Philile22" target="_blank">GitHub</a>
+                &mdash; My code repositories
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/philile-bele-b68091356/" target="_blank">LinkedIn</a>
+                &mdash; My professional profile
+            </li>
+        </ul>
+
+        <hr>
+
+        <a href="project.html" class="nav-link">View Our Team Project &raquo;</a>
+
+        <p class="footer">
+            &copy; 2026 Philile Bele | Student No: 221831584
+        </p>
+
+    </div>
+
+</body>
+</html>
